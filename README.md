@@ -1,7 +1,6 @@
 ## Instructions on how to run the application locally 📝
 
 - 1️⃣ Clone the repository to your machine if you have the access. Use this link to do it.
-  ↦ <https://github.com/Porgramming-Hero-web-course/l2-b2-assignment-6-backend-gsjoy24.git>
 - 2️⃣ Open the project in vs code and create a file named .env in the root of the folder.
 - 3️⃣ Add the code bellow in the .env file
 
@@ -13,8 +12,8 @@ DATABASE_URL=''
 BCRYPT_SALT_ROUND=12
 JWT_ACCESS_TOKEN=''
 JWT_ACCESS_EXPIRES_IN=7d
-SUPER_ADMIN_EMAIL=superAdmin@gmail.com
-SUPER_ADMIN_PASSWORD=superAdmin0
+SUPER_ADMIN_EMAIL=hs.sharif819@gmail.com
+SUPER_ADMIN_PASSWORD=SuperAdmin
 
 ```
 
@@ -25,9 +24,7 @@ SUPER_ADMIN_PASSWORD=superAdmin0
 ```
 
 // on terminal
-the server is running on port 3000
-
-// on http://localhost:3000/
+// on http://localhost:5000/
   {
     success: true,
     message: 'Server is running!',
@@ -35,9 +32,9 @@ the server is running on port 3000
 
 ```
 
-- 7️⃣ To run the production version, run the command 'npm run build' to build the the project. After complete the build process, run 'npm run start:prod' to run the build or production version on the localhost.
+- 7️⃣ To run the production version, run the command 'npm run build' to build the the project. After complete the build process, run 'npm run start-prod' to run the build or production version on the localhost.
 
 #### This server is deployed on vercel
 
-- live link ↦ <https://second-dream-server.vercel.app/>
-- client side link ↦ <https://second-dream-gadgets.web.app/>
+- live link ↦ <https://smartphone-iota.vercel.app/>
+- client side link ↦ <https://github.com/hasansharif819/smart-phone-client>
